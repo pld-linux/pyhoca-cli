@@ -58,4 +58,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{py_sitescriptdir}/pyhoca/cli
 %{py_sitescriptdir}/pyhoca/cli/*.py[co]
 %{py_sitescriptdir}/PyHoca_CLI-%{version}-py*.egg-info
+%{py_sitescriptdir}/PyHoca_CLI-%{version}-py*-nspkg.pth
 %{_mandir}/man1/%{name}.1*
